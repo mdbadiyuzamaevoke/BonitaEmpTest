@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Evoke_AWS">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="vvyasabhattu">
+      <firstName>Vineet</firstName>
+      <lastName>Vyasabhattu</lastName>
+      <title>Mr</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="bmohammad">
+      <firstName>BadiyuZama</firstName>
+      <lastName>Mohammad</lastName>
+      <title>Mr</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="pnadipineni">
+      <firstName>Paparao</firstName>
+      <lastName>Nadipineni</lastName>
+      <title>Mr</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="halla">
+      <firstName>Hari</firstName>
+      <lastName>Alla</lastName>
+      <title>Mr</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="member">
+      <displayName>Member</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="AWSUsers">
+      <displayName>AWSUsers</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>vvyasabhattu</userName>
+      <roleName>member</roleName>
+      <groupName>AWSUsers</groupName>
+    </membership>
+    <membership>
+      <userName>bmohammad</userName>
+      <roleName>member</roleName>
+      <groupName>AWSUsers</groupName>
+    </membership>
+    <membership>
+      <userName>pnadipineni</userName>
+      <roleName>member</roleName>
+      <groupName>AWSUsers</groupName>
+    </membership>
+    <membership>
+      <userName>halla</userName>
+      <roleName>member</roleName>
+      <groupName>AWSUsers</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
