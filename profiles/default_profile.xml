@@ -5,7 +5,9 @@
         <profileEntries/>
         <profileMapping>
             <users/>
-            <groups/>
+            <groups>
+                <group>/AWSUsers</group>
+            </groups>
             <memberships/>
             <roles>
                 <role>member</role>
@@ -17,7 +19,9 @@
         <profileEntries/>
         <profileMapping>
             <users/>
-            <groups/>
+            <groups>
+                <group>/AWSUsers</group>
+            </groups>
             <memberships/>
             <roles>
                 <role>member</role>
@@ -29,7 +33,9 @@
         <profileEntries/>
         <profileMapping>
             <users/>
-            <groups/>
+            <groups>
+                <group>/AWSUsers</group>
+            </groups>
             <memberships/>
             <roles>
                 <role>member</role>
