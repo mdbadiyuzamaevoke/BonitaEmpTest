@@ -2,7 +2,7 @@
   "modelVersion" : "2.0",
   "id" : "viewEmpData",
   "name" : "viewEmpData",
-  "lastUpdate" : 1615899026563,
+  "lastUpdate" : 1615966782542,
   "rows" : [
     [
       {
@@ -197,11 +197,12 @@
                           },
                           "propertyValues" : {
                             "repeatedCollection" : {
-                              "type" : "variable"
+                              "type" : "variable",
+                              "value" : ""
                             },
                             "hidden" : {
-                              "type" : "expression",
-                              "value" : "!employee_selected"
+                              "type" : "constant",
+                              "value" : false
                             },
                             "cssClasses" : {
                               "type" : "constant",
@@ -232,8 +233,8 @@
                                     "value" : false
                                   },
                                   "hidden" : {
-                                    "type" : "expression",
-                                    "value" : "!employee_selected.name"
+                                    "type" : "constant",
+                                    "value" : false
                                   },
                                   "labelPosition" : {
                                     "type" : "constant",
@@ -264,7 +265,7 @@
                                   },
                                   "value" : {
                                     "type" : "variable",
-                                    "value" : "employee_selected.name"
+                                    "value" : "bdmFromContext.name"
                                   },
                                   "dimension" : {
                                     "type" : "constant",
@@ -314,8 +315,8 @@
                                     "value" : false
                                   },
                                   "hidden" : {
-                                    "type" : "expression",
-                                    "value" : "!employee_selected.age"
+                                    "type" : "constant",
+                                    "value" : false
                                   },
                                   "labelPosition" : {
                                     "type" : "constant",
@@ -346,7 +347,7 @@
                                   },
                                   "value" : {
                                     "type" : "variable",
-                                    "value" : "employee_selected.age"
+                                    "value" : "bdmFromContext.age"
                                   },
                                   "dimension" : {
                                     "type" : "constant",
@@ -355,6 +356,24 @@
                                   "required" : {
                                     "type" : "constant",
                                     "value" : false
+                                  },
+                                  "minLength" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "maxLength" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "min" : {
+                                    "type" : "constant"
+                                  },
+                                  "max" : {
+                                    "type" : "constant"
+                                  },
+                                  "step" : {
+                                    "type" : "constant",
+                                    "value" : 1
                                   }
                                 },
                                 "reference" : "989cb071-b77d-426f-89db-59bc79e29eaf",
@@ -378,8 +397,8 @@
                                     "value" : false
                                   },
                                   "hidden" : {
-                                    "type" : "expression",
-                                    "value" : "!employee_selected.salary"
+                                    "type" : "constant",
+                                    "value" : false
                                   },
                                   "labelPosition" : {
                                     "type" : "constant",
@@ -410,7 +429,7 @@
                                   },
                                   "value" : {
                                     "type" : "variable",
-                                    "value" : "employee_selected.salary"
+                                    "value" : "bdmFromContext.salary"
                                   },
                                   "dimension" : {
                                     "type" : "constant",
@@ -419,6 +438,24 @@
                                   "required" : {
                                     "type" : "constant",
                                     "value" : false
+                                  },
+                                  "minLength" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "maxLength" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "min" : {
+                                    "type" : "constant"
+                                  },
+                                  "max" : {
+                                    "type" : "constant"
+                                  },
+                                  "step" : {
+                                    "type" : "constant",
+                                    "value" : 1
                                   }
                                 },
                                 "reference" : "952cb0e1-7a62-4468-a178-6cec1fef767d",
@@ -442,8 +479,8 @@
                                     "value" : false
                                   },
                                   "hidden" : {
-                                    "type" : "expression",
-                                    "value" : "!employee_selected.grade"
+                                    "type" : "constant",
+                                    "value" : false
                                   },
                                   "labelPosition" : {
                                     "type" : "constant",
@@ -474,7 +511,7 @@
                                   },
                                   "value" : {
                                     "type" : "variable",
-                                    "value" : "employee_selected.grade"
+                                    "value" : "bdmFromContext.grade"
                                   },
                                   "dimension" : {
                                     "type" : "constant",
@@ -483,6 +520,24 @@
                                   "required" : {
                                     "type" : "constant",
                                     "value" : false
+                                  },
+                                  "minLength" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "maxLength" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "min" : {
+                                    "type" : "constant"
+                                  },
+                                  "max" : {
+                                    "type" : "constant"
+                                  },
+                                  "step" : {
+                                    "type" : "constant",
+                                    "value" : 1
                                   }
                                 },
                                 "reference" : "b45d2a81-3f5b-44a2-b599-5c83918e77cc",
@@ -491,6 +546,37 @@
                                 "description" : ""
                               }
                             ]
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "type" : "container",
+                          "dimension" : {
+                            "xs" : 12,
+                            "sm" : 12,
+                            "md" : 12,
+                            "lg" : 12
+                          },
+                          "propertyValues" : {
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "hidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "repeatedCollection" : {
+                              "type" : "variable",
+                              "value" : ""
+                            }
+                          },
+                          "reference" : "a6379832-2c89-4624-b206-07de5406aa1f",
+                          "hasValidationError" : false,
+                          "id" : "pbContainer",
+                          "rows" : [
+                            [ ]
                           ]
                         }
                       ]
@@ -540,6 +626,18 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
                 }
               },
               "reference" : "4701d479-94d6-478b-8a76-29a0c749561a",
@@ -716,17 +814,10 @@
       ],
       "exposed" : false
     },
-    "employee" : {
-      "type" : "businessdata",
+    "bdmFromContext" : {
+      "type" : "url",
       "value" : [
-        "{\"displayValue\":\"findByPersistenceId [com.company.model.Employee]\",\"businessObjectName\":\"undefined\",\"query\":{\"name\":\"findByPersistenceId\",\"displayName\":\"findByPersistenceId\"},\"id\":\"com.company.model.Employee\",\"filters\":[{\"name\":\"persistenceId\",\"type\":\"INTEGER\",\"collection\":false,\"value\":\"context.storageId\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
-      ],
-      "exposed" : false
-    },
-    "employee_selected" : {
-      "type" : "constant",
-      "value" : [
-        ""
+        "../{{context.employee_ref.link}}"
       ],
       "exposed" : false
     }
